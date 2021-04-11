@@ -22,7 +22,7 @@ public class JokeController {
 
         model.addAttribute("joke", jokeService.getJoke());
 
-        return "chucknorris";
+        return "checknorris";
 
     }
 }
